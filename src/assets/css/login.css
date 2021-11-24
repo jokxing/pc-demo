@@ -1,0 +1,180 @@
+#login{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #232C3B;
+}
+
+#login_video {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    z-index: 0;
+    opacity: .3;
+}
+
+.login_main{
+    width: 390px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.login_main img.login_logo{
+    width: 310px;
+    margin-bottom: 60px;
+}
+
+.login_form ul li{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.login_form ul li.code_success input{
+    border: 1px #00B40C solid;
+    background-color: rgb(0 180 12 / 35%);
+}
+.login_form ul li.code_success span.icon{
+    background-color: #a8ffae;
+}
+.login_form ul li.code_success input::-webkit-input-placeholder,
+.login_form ul li.code_success input::-webkit-input-placeholder,
+.login_form ul li.code_success span.icon i{
+    color: #00B40C;
+}
+.login_form ul li.code input{
+    cursor: pointer;
+}
+.login_form ul li p{
+    text-align: left;
+}
+.login_form ul li span.icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 4px 0 0 4px;
+    background-color: #b5b5b5;
+    line-height: 44px;
+    float: left;
+}
+.login_form ul li span i{
+    color: #fff;
+    font-size: 26px;
+    line-height: 44px;
+}
+.login_form ul li input{
+    width: 345px;
+    height: 44px;
+    border-radius: 0 4px 4px 0;
+    background-color: rgb(255 255 255 / .35);
+    padding-left: 10px;
+    float: left;
+    color: #fff;
+}
+.login_form ul li input:focus{
+    color: yellow;
+}
+.login_form ul li input::-webkit-input-placeholder{
+    color: #fff;
+}
+.login_form ul li button{
+    width: 100%;
+}
+.login_form ul li a.left{
+    color: #fff;
+}
+.login_form ul li:last-child a{
+    cursor: pointer;
+}
+
+.login_service{
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login_service img{
+    width: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.login_form ul li span.check{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.login_form ul li span.check i{
+    font-size: 14px;
+    line-height: normal;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login_form ul li .ant-btn-primary[disabled], 
+.login_form ul li .ant-btn-primary[disabled]:hover{
+    opacity: .5;
+}
+
+
+/* 忘记密码 */
+.password{
+    width: 1200px;
+    height: 670px;
+    background-color: #fff;
+    margin: 140px auto 100px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px rgba(138, 138, 138, 0.14);
+    text-align: center;
+}
+.password h2{
+    font-size: 30px;
+    margin-top: 95px;
+    margin-bottom: 160px;
+}
+.password_form{
+    width: 422px;
+    height: 53px;
+    margin: 0 auto;
+    border-bottom: 1px #C4C4C4 solid;
+}
+.password_form span{
+    line-height: 30px;
+    float: left;
+    display: block;
+    font-size: 20px;
+    color: #333;
+}
+.password_form input{
+    width: 297px;
+    float: left;
+    height: 52px;
+    padding-left: 67px;
+    padding-bottom: 20px;
+}
+.password_btn{
+    margin: 44px auto 0;
+    width: 422px;
+}
+.password_btn button{
+    width: 100%;
+}
+
+
+/* 验证 */
+.dx_captcha_basic_overlay,
+.dx_captcha_loading_overlay{
+    display: none!important;
+}

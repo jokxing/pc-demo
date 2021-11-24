@@ -1,0 +1,865 @@
+#preferentialActivity{
+    background-color: #F6F6F6;
+}
+
+.preferentialActivity_banner_par{
+    height: 550px;
+}
+.preferentialActivity_banner{
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/discount/DptGift_banner.png);
+}
+
+.preferentialActivity_bg{
+    background-color: #fbfcfe;
+}
+
+.preferentialActivity_inner{
+    width: 1200px;
+    min-height: 485px;
+    padding: 30px 38px 58px 38px;
+    margin: -146px auto 103px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    position: relative;
+}
+
+.preferentialActivity_inner .sider{
+    width: 70px;
+    border-radius: 10px 0 0 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -80px;
+    cursor: pointer;
+}
+.preferentialActivity_inner .sider ul li{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    line-height: 74px;
+}
+
+.preferentialActivity_inner .tab{
+    margin-bottom: 35px;
+}
+.preferentialActivity_inner .tab ul li{
+    width: 189px;
+    height: 50px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 44px;
+    line-height: 48px;
+    color: #666;
+    font-size: 18px;
+    box-shadow: 0 2px 16px 2px rgba(246, 176, 130, .65);
+    cursor: pointer;
+}
+.preferentialActivity_inner .tab ul li:last-child{
+    margin-right: 0;
+}
+.preferentialActivity_inner .tab ul li img{
+    margin-left: 32px;
+    margin-right: 20px;
+}
+
+.preferentialActivity_inner .list ul li{
+    width: 360px;
+    height: 290px;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    float: left;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    border: 1px #EFEFEF solid;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.preferentialActivity_inner .list ul li:hover{
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .21);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .21);
+}
+.preferentialActivity_inner .list ul li:nth-child(3n + 3){
+    margin-right: 0;
+}
+.preferentialActivity_inner .list ul li a:hover{
+    color: initial;
+}
+.preferentialActivity_inner .list ul li .imgBox{
+    width: 100%;
+    height: 223px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(../img/discount/preferentialActivity_loading.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.preferentialActivity_inner .list ul li .imgBox img{
+    height: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.preferentialActivity_inner .list ul li:hover img{
+    -webkit-transform: translateZ(0) scale(1.05);
+    transform: translateZ(0) scale(1.05);
+}
+.preferentialActivity_inner .list ul li .itemText{
+    width: 100%;
+    height: 65px;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
+    padding-left: 17px;
+    position: relative;
+}
+.preferentialActivity_inner .list ul li .itemText h5{
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+.preferentialActivity_inner .list ul li .itemText p{
+    color: #929292;
+    line-height: 20px;
+}
+
+.preferentialActivity_inner .list ul li .state{
+    width: 86px;
+    height: 24px;
+    position: absolute;
+    bottom: 0;
+    right: -18px;
+    transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -webkit-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    padding-left: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    letter-spacing:2px;
+}
+.preferentialActivity_inner .list ul li .state_0{
+    background-color: #08b552;
+}
+.preferentialActivity_inner .list ul li .state_1{
+    background-color: #008dff;
+}
+.preferentialActivity_inner .list ul li .state_2{
+    background-color: #05b7d3;
+}
+
+.preferentialActivity_inner .list ul li em{
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
+
+
+/* 优惠详细-统一表格 */
+.preferentialActivity_inner table{
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.preferentialActivity_inner table th,
+.preferentialActivity_inner table td{
+    padding: 20px 0;
+    color: #333;
+    font-size: 16px;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    text-align: center;
+}
+.preferentialActivity_inner table th:last-child,
+.preferentialActivity_inner table td:last-child{
+    border-right: 1px solid #e8e8e8;
+}
+.preferentialActivity_inner table tbody tr:last-child td{
+    border-bottom: 1px solid #e8e8e8;
+}
+.preferentialActivity_inner table th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.preferentialActivity_inner table th:last-child{
+    border-radius: 0 10px 0 0;
+}
+.preferentialActivity_inner table tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+.preferentialActivity_inner table tr:last-child td:last-child{
+    border-radius: 0 0 10px 0;
+}
+
+
+/* 优惠详细-我的金额统一样式 */
+.preferentialActivity_inner .my_money{
+    margin-bottom: 30px;
+}
+.preferentialActivity_inner .my_money h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.preferentialActivity_inner .my_money p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.preferentialActivity_inner .my_money p span{
+    width: 120px;
+    display: block;
+    float: left;
+    color: #333!important;
+}
+
+
+/* 优惠详细-活动条件统一样式 */
+.preferentialActivity_inner .activity_conditions{
+    margin-bottom: 30px;
+}
+.preferentialActivity_inner .activity_conditions h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.preferentialActivity_inner .activity_conditions p{
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* 优惠详细-备注统一样式 */
+.preferentialActivity_inner .activity_remarks{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+/* 优惠详细-活动规则统一样式 */
+.preferentialActivity_inner .activity_rules{
+    margin-top: 20px;
+}
+.preferentialActivity_inner .activity_rules h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+.preferentialActivity_inner .activity_rules ul li{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 26px;
+}
+.preferentialActivity_inner .activity_rules ul li span{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 12px;
+}
+
+
+
+/* 优惠详细-按钮统一 */
+.preferentialActivity_inner .btn{
+    text-align: center;
+}
+.preferentialActivity_inner .btn button{
+    width: 340px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+/* 优惠详细-主体统一居中 */
+.preferentialActivity_box{
+    width: 1200px;
+    margin: 0 auto 58px;
+}
+.preferentialActivity_box .btn{
+    margin-top: 20px;
+    text-align: center;
+}
+.preferentialActivity_box .btn button{
+    width: 340px;
+    height: 50px;
+}
+
+.preferentialActivity_box .activity_rules{
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    padding: 30px 38px;
+    margin-top: 30px;
+}
+.preferentialActivity_box .activity_rules p{
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.preferentialActivity_box .activity_rules h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.preferentialActivity_box .activity_rules ul li{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 26px;
+}
+.preferentialActivity_box .activity_rules ul li span{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 12px;
+}
+
+
+/* kingMeal */
+.kingMeal{
+    background-color: #fcfdfe;
+}
+.kingMeal table.math{
+    margin-bottom: 30px;
+}
+.kingMeal table.math th{
+    background-color: rgb(239, 242, 246)!important;
+    color: #333!important;
+}
+.kingMeal table td p{
+    line-height: 24px;
+}
+.kingMeal table td span{
+    width: 46%;
+    float: left;
+    display: block;
+}
+.kingMeal table td span:last-child{
+    float: right;
+}
+.kingMeal table td span i{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.kingMeal table td em{
+    font-size: 20px;
+    color: red;
+    line-height: 110px;
+}
+
+
+/* ChessRank */
+.ChessRank .preferentialActivity_inner .ChessRank_activity_conditions {
+    position: relative;
+}
+.ChessRank .preferentialActivity_inner .ChessRank_activity_conditions p {
+    padding-left: 120px;
+}
+.ChessRank .preferentialActivity_inner .ChessRank_activity_conditions img{
+    position: absolute;
+    top: 46px;
+    left: 0;
+}
+
+.ChessRank_Duel{
+    text-align: center;
+    margin-top: 46px;
+}
+.ChessRank_Duel h3{
+    font-size: 20px;
+}
+.ChessRank_Duel .count_down{
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 46px;
+}
+.ChessRank_Duel .count_down span{
+    width: 36px;
+    height: 46px;
+    display: inline-block;
+    color: #fff;
+    background-image: linear-gradient(0deg,#FF6D35,#FF9733,#FF6D35);
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.ChessRank_Duel table{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.ChessRank_Duel table th{
+    padding: 10px 0;
+    border-color: #FF9733;
+}
+.ChessRank_Duel table td{
+    padding: 16px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12%;
+}
+
+.ChessRank_Duel table th:last-child, .ChessRank_Duel table td:last-child,
+.ChessRank_Duel table tbody tr:last-child td,
+.ChessRank_Duel table td{
+    border-color: #FF9733;
+}
+
+.ChessRank_Duel table tbody tr:first-child td:first-child{
+    background-image: url(../img/discount/gold_medal.png);
+    font-size: 0;
+}
+.ChessRank_Duel table tbody tr:nth-child(2) td:first-child{
+    background-image: url(../img/discount/silver_medal.png);
+    font-size: 0;
+}
+.ChessRank_Duel table tbody tr:nth-child(3) td:first-child{
+    background-image: url(../img/discount/bronze_medal.png);
+    font-size: 0;
+}
+
+.ChessRank_Duel .duel_more{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+/* ChessSave */
+.ChessSave .preferentialActivity_inner .my_money p span{
+    width: 90px;
+}
+.ChessSave .preferentialActivity_inner table tbody td:last-child{
+    border-right: none;
+    border-radius: 0;
+}
+.ChessSave .preferentialActivity_inner table tbody tr:first-child td:last-child{
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 0 0 10px 0;
+}
+
+
+
+/* ChessHand */
+.ChessHand .activity_remarks{
+    text-align: center;
+}
+.ChessHand .preferentialActivity_inner table td:last-child{
+    border-right: none;
+}
+.ChessHand .preferentialActivity_inner table tbody tr:last-child td:last-child{
+    border-radius: 0;
+}
+.ChessHand .preferentialActivity_inner table tbody tr:first-child td:last-child{
+    border-radius: 0 0 10px 0;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+/* DptGift */
+.DptGift{
+    background-color: #f6f6f6;
+}
+
+.luxury_gift .my_money{
+    width: 1200px;
+    margin: 20px auto 30px;
+}
+.luxury_gift .my_money p{
+    font-size: 30px;
+}
+.luxury_gift .my_money p span{
+    font-size: 30px;
+    color: #333;
+}
+
+
+.luxury_gift .luxury_gift_list{
+    width: 1200px;
+    margin: 0 auto 80px;
+}
+.luxury_gift .luxury_gift_list ul li{
+    width: 285px;
+    height: 460px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    border: 1px #fff solid
+}
+.luxury_gift .luxury_gift_list ul li:nth-child(4n+4){
+    margin-right: 0;
+}
+.luxury_gift .luxury_gift_list ul li:hover{
+    border: 1px solid;
+}
+.luxury_gift .luxury_gift_list ul li img{
+    width: 246px;
+    margin-top: 20px;
+}
+.luxury_gift .luxury_gift_list ul li .img_select{
+    height: 46px;
+    width: 264px;
+    background-color: #fcfcfe;
+    padding: 0 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.luxury_gift .luxury_gift_list ul li .img_select img{
+    height: 26px;
+    width: 26px;
+    margin-right: 6px;
+    background-color: #fff;
+    border: solid 1px #c4c4c4;
+    cursor: pointer;
+    margin-top: 0;
+}
+.luxury_gift .luxury_gift_list ul li h5{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 4px;
+    line-height: 24px;
+}
+.luxury_gift .luxury_gift_list ul li p{
+    font-size: 12px;
+    color: #666666;
+    margin-top: 5px;
+}
+.luxury_gift .luxury_gift_list ul li h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.luxury_gift .luxury_gift_list ul li button{
+    width: 168px;
+    height: 34px;
+    border-radius: 18px;
+    line-height: 34px;
+    margin-top: 9px;
+}
+
+
+.luxury_gift .activity_rules{
+    width: 1200px;
+    padding: 30px 38px 58px 38px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    margin-bottom: 103px;
+}
+.luxury_gift .activity_rules h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+.luxury_gift .activity_rules ul li{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 26px;
+}
+.luxury_gift .activity_rules ul li span{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 12px;
+}
+
+
+
+/* UsdtRefund */
+.UsdtRefund .preferentialActivity_inner .activity_conditions h3{
+    text-align: center;
+}
+.UsdtRefund .preferentialActivity_inner .activity_conditions p{
+    text-indent: 2em;
+}
+
+.UsdtRefund table tr:nth-child(2) td:first-child,
+.UsdtRefund table tr:nth-child(5) td:first-child,
+.UsdtRefund table tr:nth-child(9) td:first-child{
+    border-right: none;
+}
+.UsdtRefund table tr:last-child td{
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.UsdtRefund table td{
+    font-size: 18px;
+}
+.UsdtRefund table td span{
+    font-size: 14px;
+}
+
+
+
+/* ActGiftDetail */
+.ActGiftDetail{
+    background-color: #fcfdfe;
+}
+
+.ActGiftDetail .activity_conditions,
+.ActGiftDetail .activity_rules,
+.ActGiftDetail .sign{
+    width: 1200px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    padding: 30px 38px;
+    margin: 0 auto;
+}
+
+.ActGiftDetail .sign{
+    margin-top: -146px;
+    margin-bottom: 30px;
+}
+.ActGiftDetail .sign h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.ActGiftDetail .sign .progres{
+    margin: 20px 0 30px 0;
+}
+
+.ActGiftDetail .sign .progres ul li{
+    width: 14.28%;
+    font-size: 14px;
+    color: #777;
+    float: left;
+    text-align: center;
+}
+
+.ActGiftDetail .sign .progres ul li span.sign_num{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ActGiftDetail .sign .progres .strip{
+    width: 100%;
+    height: 26px;
+    margin: 4px 0 8px;
+    background-color: #cacaca;
+    position: relative;
+}
+.ActGiftDetail .sign .progres .strip::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.ActGiftDetail .sign .progres ul li:first-child .strip{
+    border-radius: 25px 0 0 25px;
+}
+.ActGiftDetail .sign .progres ul li:last-child .strip{
+    border-radius: 0 25px 25px 0;
+}
+
+.ActGiftDetail .sign .progres .strip.active{
+    box-shadow: 0px 0px 4px #EA8236;
+}
+.ActGiftDetail .sign .progres .strip.last::before{
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 0px 4px rgba(45, 45, 45, 0.6);
+    z-index: 1;
+}
+.ActGiftDetail .sign .progres ul li:last-child .strip.complete::before{
+    left: 92%;
+}
+.ActGiftDetail .sign .progres .strip.last::after{
+    content: '';
+    width: 50%;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 4px #EA8236;
+}
+.ActGiftDetail .sign .progres ul li:first-child .strip.last::after{
+    border-radius: 25px 0 0 25px;
+}
+.ActGiftDetail .sign .progres ul li:last-child .strip.complete::after{
+    width: 100%;
+}
+
+.ActGiftDetail .sign .progres ul li p{
+    margin: 0;
+    height: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.ActGiftDetail .progres .check{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: rgb(234 130 54 / 40%);
+    border-radius: 50%;
+    margin: 14px auto;
+    position: relative;
+}
+.ActGiftDetail .sign .progres .check img{
+    width:60%;
+    vertical-align: middle;
+}
+.ActGiftDetail .sign .progres .check img.last{
+    width: 50px;
+    margin-left: -6px;
+}
+
+.ActGiftDetail .sign .btn{
+    text-align: center;
+}
+.ActGiftDetail .sign .btn button{
+    width: 340px;
+    height: 50px;
+    font-size: 16px;
+}
+.ActGiftDetail .sign .btn p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.ActGiftDetail .sign .btn p span{
+    font-size: 22px;
+}
+
+
+.ActGiftDetail .activity_conditions h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ActGiftDetail .activity_conditions p{
+    font-size: 16px;
+}
+
+.ActGiftDetail .activity_rules{
+    margin-top: 30px;
+    margin-bottom: 58px;
+}
+.ActGiftDetail .activity_rules h4{
+    font-size: 20px;
+    text-align: center;
+}
+.ActGiftDetail .activity_rules table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 30px;
+}
+.ActGiftDetail table th,
+.ActGiftDetail table td{
+    height: 50px;
+    padding: 20px 0;
+    color: #333;
+    font-size: 16px;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    text-align: center;
+}
+.ActGiftDetail table th:last-child,
+.ActGiftDetail table td:last-child{
+    border-right: 1px solid #e8e8e8;
+}
+.ActGiftDetail table tbody tr:last-child td{
+    border-bottom: 1px solid #e8e8e8;
+}
+.ActGiftDetail table th:first-child{
+    border-radius: 10px 0 0 0;
+}
+.ActGiftDetail table th:last-child{
+    border-radius: 0 10px 0 0;
+}
+.ActGiftDetail table tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+.ActGiftDetail table tr:last-child td:last-child{
+    border-radius: 0 0 10px 0;
+}
+
+.ActGiftDetail .activity_rules ul li{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 26px;
+}
+.ActGiftDetail .activity_rules ul li span{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 12px;
+}

@@ -1,0 +1,54 @@
+{
+    "status_code": 200,
+    "message": {
+        "title": "@ctitle()",
+        "giftList|7": [
+            {
+                "id|+1": 1,
+                "title": "@title(1)",
+                "pic|2": [{
+                    "url|1": ["https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20190529%2F17%2F1559121186-NfdCQonrkG.jpg&refer=http%3A%2F%2Fimage.biaobaiju.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633922085&t=df1964c2b81509e347778c34d20f655f", "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01c96555a5dad16ac72539e348c3a5.jpg&refer=http%3A%2F%2Fimg.zcool.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636342613&t=5942f9b245e056ea49d1d78d8cb70872","https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic34.nipic.com%2F20131015%2F2531170_234846010000_2.jpg&refer=http%3A%2F%2Fpic34.nipic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636342732&t=daa7abb3d533f42cc5860ecbb210c9e9"],
+                    "name|1": ["蓝色", "红色", "黄色"]
+                }]
+            }
+        ],
+        "moneyList": [{
+            "id": 1,
+            "money": 25000,
+            "player_money": 800,
+            "is_gift2money": 1,
+            "gift": "@word()"
+        },{
+            "id": 2,
+            "money": 18000,
+            "player_money": 600,
+            "is_gift2money": 1,
+            "gift": "@word()"
+        },{
+            "id": 3,
+            "money": 9500,
+            "player_money": 400,
+            "is_gift2money": 1,
+            "gift": "@word()"
+        },{
+            "id": 4,
+            "money": 5000,
+            "player_money": 200,
+            "is_gift2money": 1,
+            "gift": "@word()"
+        },{
+            "id": 5,
+            "money": 3000,
+            "player_money": 200,
+            "is_gift2money": 1,
+            "gift": "@word()"
+        },{
+            "id": 6,
+            "money": 1000,
+            "player_money": 200,
+            "is_gift2money": 1,
+            "gift": "@word()"
+        }],
+        "dpted": 0
+    }
+}

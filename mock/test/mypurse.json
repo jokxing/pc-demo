@@ -1,0 +1,13 @@
+{
+    "status_code": 200,
+    "message": {
+        "total": 100,
+        "pagesize": 10,
+        "list|10": [{
+            "created_at": "@now()",
+            "in_account|1": ["code1", "code2", "code3"],
+            "out_account": "main",
+            "money|1-10": 1
+        }]
+    }
+}

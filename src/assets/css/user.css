@@ -1,0 +1,302 @@
+p,h1,h2,h3,h4,h5,li{
+    color: #333;
+}
+
+.user_inner{
+    width: 1200px;
+    margin: 120px auto 54px;
+}
+
+.user_sider{
+    width: 222px;
+    float: left;
+}
+
+.user_index{
+    width: 100%;
+    height: 294px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    background-image: url(../img/user/user_index_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user_index .user_private{
+    padding: 20px 0 0 18px;
+    margin-bottom: 25px;
+}
+.user_index .user_private img.head{
+    width: 49px;
+    float: left;
+    margin-right: 7px;
+}
+.user_index .user_private .user_name{
+    float: left;
+    margin-top: 6px;
+}
+.user_index .user_private .user_name p{
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+}
+
+.user_index .user_wallet{
+    margin-left: 25px;
+    color: #fff;
+    position: relative;
+}
+.user_index .user_wallet p{
+    color: #fff;
+}
+.user_index .user_wallet span{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+.user_index .user_wallet button{
+    width: 69px;
+    height: 29px;
+    background-image: url(../img/user/user_recovery_btnBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 20px;
+    left: 105px;
+    font-size: 12px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+.user_index .user_wallet button:hover{
+    -webkit-filter: brightness(1.1);
+    filter: brightness(1.1);
+}
+
+.user_index .user_menu{
+    margin-top: 40px;
+    padding: 0 25px;
+}
+.user_index .user_menu ul{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.user_index .user_menu ul li{
+    width: 38px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.user_index .user_menu ul li img{
+    width: 100%;
+    margin-bottom: 3px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.user_index .user_menu ul li:hover img{
+    opacity: .9;
+}
+.user_index .user_menu ul li a p{
+    color: #fff;
+}
+
+
+.user_wallet_menu{
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    padding: 15px 0;
+    margin-top: 10px;
+}
+.user_wallet_menu ul li{
+    width: 100%;
+    height: 48px;
+    padding-left: 18px;
+    line-height: 48px;
+    color: #333;
+    position: relative;
+    display: inline-table;
+    cursor: pointer;
+}
+.user_wallet_menu ul li:nth-child(2){
+    padding-bottom: 10px;
+    border-bottom: 1px #EFEFEF solid;
+}
+.user_wallet_menu ul li:nth-child(3){
+    padding-top: 10px;
+}
+.user_wallet_menu ul li.active{
+    background-color: #FFF9F4;
+}
+.user_wallet_menu ul li.active::before{
+    content: '';
+    width: 2px;
+    height: 36px;
+    background-color: #FFAB4C;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 1px;
+}
+.user_wallet_menu ul li a{
+    display: block;
+    position: relative;
+}
+.user_wallet_menu ul li img{
+    width: 38px;
+    margin-right: 13px;
+}
+.user_wallet_menu ul li a span{
+    padding: 0 8px;
+    line-height: 16px;
+    background-color: #EC4040;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    border-radius: 8px;
+    position: absolute;
+    left: 116px;
+    top: 14px;
+}
+
+
+
+.user_inner .ant-layout-content{
+    width: 960px;
+    min-height: 834px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    float: right;
+    padding: 25px 30px 38px 30px;
+    position: relative;
+}
+.user_inner .ant-layout-content h3{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.user_inner .ant-layout-content h3 span{
+    color: #8F8F8F;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.user_inner .user_params span.label{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.user_inner .user_params .ant-row{
+    margin-bottom: 20px;
+}
+.user_inner .user_params .ant-select-selection{
+    width: 290px;
+    height: 40px;
+}
+.user_inner .user_params .ant-select-selection__rendered{
+    height: 40px;
+    line-height: 38px;
+}
+
+.user_inner .user_params .ant-radio-group{
+    width: 290px;
+    height: 40px;
+}
+.user_inner .user_params .ant-radio-button-wrapper{
+    width: 50%;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.user_inner .user_params .ant-calendar-picker{
+    width: 290px;
+}
+.user_inner .user_params .ant-input{
+    height: 40px;
+}
+.user_inner .user_params button{
+    width: 100%;
+}
+
+.user_inner .user_table{
+    position: relative;
+}
+.user_inner .user_table .ant-table-placeholder{
+    height: 500px;
+    line-height: 644px;
+    border-bottom: 0;
+    color: #94A6B7;
+}
+.user_inner .user_table button{
+    width: 154px;
+    height: 50px;
+    position: absolute;
+    top: 418px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+.beat_record .user_params .ant-radio-button-wrapper{
+    width: 33.3%;
+}
+
+.beat_record .user_table .ant-table-body table tr{
+    cursor: pointer;
+}
+
+.trade_record .user_params .ant-radio-button-wrapper{
+    width: 25%;
+}
+
+
+
+/* main里面的tab */
+.type_tab{
+    height: 50px;
+    border-bottom: 1px #D8DCE7 solid;
+}
+.type_tab ul li{
+    width: 150px;
+    line-height: 48px;
+    text-align: center;
+    float: left;
+    border: 1px #D8DCE7 solid;
+    border-right: none;
+    cursor: pointer;
+    position: relative;
+}
+.type_tab ul li:last-child{
+    border-right: 1px #D8DCE7 solid;
+}
+.type_tab ul li.active::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+
+/* 分页 */
+.user_inner .ant-pagination{
+    float: right;
+    margin-top: 20px;
+}

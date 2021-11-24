@@ -1,0 +1,41 @@
+.change_data .from{
+    margin-top: 64px;
+}
+.change_data .from dl{
+    display: flex;
+    margin-bottom: 30px;
+}
+.change_data .from dd{
+    width: 80px;
+    line-height: 40px;
+    float: left;
+}
+.change_data .from dt{
+    float: left;
+}
+.change_data .from input{
+    width: 340px;
+    height: 40px;
+}
+.change_data .from dt button.small{
+    width: 100px;
+    margin-left: 10px;
+}
+.change_data .from dt button{
+    width: 340px;
+}
+.change_data .from dt .ant-switch{
+    width: 80px;
+    height: 30px;
+    margin-top: 6px;
+}
+.change_data .from dt .ant-switch:after{
+    width: 28px;
+    height: 28px;
+    top: 0px;
+    left: 0px;
+}
+.change_data .from dt .ant-switch-checked:after{
+    left: 79px;
+}
+ 

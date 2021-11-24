@@ -1,0 +1,82 @@
+.mail_list{
+    margin-top: 20px;
+}
+.mail_list table{
+    width: 100%;
+}
+.mail_list table tr{
+    cursor: pointer;
+}
+.mail_list table td{
+    max-width: 520px;
+    line-height: 40px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mail_list table td:nth-child(2){
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mail_list table td:nth-child(3){
+    width: 346px;
+    text-align: right;
+}
+.mail_list table td:last-child{
+    text-align: right;
+}
+.mail_list table td i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.mail .mail_bottom{
+    margin-top: 20px;
+}
+.mail .mail_bottom ul li{
+    float: left;
+    cursor: pointer;
+    margin-right: 52px;
+}
+.mail .mail_bottom ul li i{
+    margin-right: 8px;
+}
+
+
+.notice_type{
+    margin: 30px 0 20px 0;
+}
+.notice_type ul li{
+    float: left;
+    font-size: 16px;
+    color: #8F8F8F;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.notice_type ul li.active{
+    color: #000;
+}
+
+
+.mail_modal .ant-modal-header{
+    padding-bottom: 0;
+}
+.mail_modal .ant-modal-body{
+    padding-top: 7px;
+    padding-bottom: 30px;
+}
+.mail_modal .tiemr{
+    font-size: 13px;
+    color: #94A6B7;
+    margin-bottom: 23px;
+    display: block;
+}
+.mail_modal .ant-modal-footer{
+    text-align: center;
+}
+.mail_modal .ant-modal-footer .ant-btn{
+    width: 40%;
+}

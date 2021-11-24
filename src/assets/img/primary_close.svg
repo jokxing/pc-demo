@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff8927;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="组_6058" data-name="组 6058" transform="translate(-927.522 -580.522)">
+    <circle id="椭圆_296" data-name="椭圆 296" class="cls-1" cx="12" cy="12" r="12" transform="translate(927.522 580.522)"/>
+    <g id="组_6057" data-name="组 6057" transform="translate(934.478 587.478)">
+      <line id="直线_45" data-name="直线 45" class="cls-2" x1="10.746" y2="10.39"/>
+      <line id="直线_46" data-name="直线 46" class="cls-2" x2="10.746" y2="10.39"/>
+    </g>
+  </g>
+</svg>

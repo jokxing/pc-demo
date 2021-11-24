@@ -1,0 +1,234 @@
+.myVip .level{
+    height: 310px;
+    background-color: #FFFAF1;
+    padding-top: 13px;
+}
+.myVip .level .line{
+    width: 100%;
+    height: 2px;
+    background-color: #FFC57E;
+}
+
+.myVip .level .top{
+    position: relative;
+}
+.myVip .level .top .medal{
+    width: 108px;
+    height: 115px;
+    background-image: url(../img/user/medal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 60px;
+    color: #AC6700;
+    float: left;
+    margin-right: 23px;
+}
+.myVip .level .top h5{
+    color: #EA8236;
+    font-size: 16px;
+    margin-top: 18px;
+    margin-bottom: 11px;
+}
+.myVip .level .top .cumulative{
+    height: 20px;
+}
+.myVip .level .top .cumulative p{
+    float: left;
+    color: #666;
+}
+.myVip .level .top .cumulative p span{
+    color: #333;
+}
+.myVip .level .top .cumulative p:last-child{
+    float: right;
+    margin-right: 194px;
+}
+.myVip .level .top p.ts{
+    width: 100%;
+    color: #666;
+    margin-top: 11px;
+}
+.myVip .level .top .vip_details{
+    width: 98px;
+    height: 32px;
+    line-height: 32px;
+    background-image: url(../img/user/vip_details_bg.png);
+    background-position: 0;
+    background-repeat: none;
+    background-size: cover;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 8px;
+    position: absolute;
+    top: 37px;
+    right: 0;
+    cursor: pointer;
+}
+.myVip .level .top .vip_details i{
+    padding-left: 7px;
+}
+
+.myVip .level .level_name{
+    width: 94%;
+    margin: 12px auto 0;
+}
+.myVip .level .level_name ul li{
+    width: 9%;
+    height: 30px;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+.myVip .level .level_name ul li.active{
+    background-image: url(../img/user/schedule.png);
+    background-repeat: no-repeat;
+    background-size: 52px 30px;
+    background-position: top center;
+    color: #fff;
+}
+
+.myVip .level .level_name .ant-progress-line{
+    width: 760px;
+    margin-left: 35px;
+}
+.myVip .level .level_name .ant-progress-inner{
+    background-color: #D9D3C7;
+}
+
+.myVip .level .next_level{
+    padding-left: 64px;
+    margin-top: 17px;
+}
+
+.myVip .level .bottom{
+    padding-left: 64px;
+    margin-top: 11px;
+}
+.myVip .level .bottom span{
+    float: left;
+}
+.myVip .level .bottom .ant-progress-line{
+    width: 337px;
+    float: left;
+    margin: 0 14px;
+}
+.myVip .level .bottom .ant-progress-inner{
+    background-color: #F5EFE3;
+}
+
+
+.myVip h5.title{
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 12px;
+    position: relative;
+    margin-bottom: 11px;
+}
+.myVip h5.title::before{
+    content: '';
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    border-radius: 2px;
+}
+
+
+.myVip .vip_enjoy{
+    margin-top: 36px;
+}
+.myVip .vip_enjoy button{
+    float: right;
+    width: 90px;
+    height: 30px;
+}
+.myVip .vip_enjoy ul li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: center;
+    -ms-flex-align: start;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.myVip .vip_enjoy ul li:nth-child(2n+1){
+    background-color: #FFFBF1;
+}
+.myVip .vip_enjoy ul li:nth-child(2n+2){
+    background-color: #FFF2E1;
+}
+.myVip .vip_enjoy ul li img{
+    width: 50px;
+}
+.myVip .vip_enjoy ul li p.item_num{
+    font-weight: 600;
+    margin: 19px 0 11px 0;
+}
+.myVip .vip_enjoy ul li p.item_p{
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+}
+.myVip .vip_enjoy ul li span{
+    font-size: 12px;
+}
+
+
+
+.myVip .vip_promotion{
+    margin-top: 36px;
+}
+.myVip .vip_promotion ul li{
+    width: 150px;
+    height: 105px;
+    float: left;
+    margin-bottom: 10px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: center;
+    -ms-flex-align: start;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.myVip .vip_promotion ul li span{
+    line-height: 22px;
+}
+.myVip .vip_promotion ul li:nth-child(2n+1){
+    background-color: #FFFBF1;
+}
+.myVip .vip_promotion ul li:nth-child(2n+2){
+    background-color: #FFF2E1;
+}

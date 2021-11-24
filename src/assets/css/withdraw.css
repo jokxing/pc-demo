@@ -1,0 +1,206 @@
+.withdraw_type{
+    margin-top: 10px;
+    position: relative;
+}
+.withdraw_type p{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.withdraw_type ul li{
+    width: 206px;
+    height: 50px;
+    border: 1px solid;
+    font-size: 18px;
+    color: #333;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+.withdraw_type ul li:first-child{
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+}
+.withdraw_type ul li:last-child{
+    border-left: none;
+    border-radius: 0 6px 6px 0;
+}
+
+.withdraw_type img{
+    width: 38px;
+    position: absolute;
+    top: 15px;
+    left: 406px;
+}
+
+
+.withdraw_box{
+    margin-top: 32px;
+}
+
+.withdraw_box .bank_list ul li{
+    width: 280px;
+    height: 124px;
+    background-image: url(../img/user/bank_bg.png);
+    background-repeat: no-repeat;
+    background-size: 280px 124px;
+    background-position: top center;
+    float: left;
+    margin-right: 23px;
+    margin-bottom: 19px;
+    box-shadow: 0px 10px 20px rgba(8, 118, 227, 0.32);
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.withdraw_box .bank_list ul li:nth-child(3),
+.withdraw_box .bank_list ul li:last-child{
+    margin-right: 0;
+}
+.withdraw_box .bank_list ul li .bank_type{
+    margin: 15px 0 11px 0;
+}
+.withdraw_box .bank_list ul li .bank_type .bank_logo{
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.14);
+    margin-left: 16px;
+    margin-right: 11px;
+    float: left;
+    text-align: center;
+    line-height: 46px;
+}
+.withdraw_box .bank_list ul li .bank_type span{
+    font-size: 13px;
+    color: #fff;
+    line-height: 48px;
+}
+.withdraw_box .bank_list ul li p{
+    font-size: 17px;
+    color: #fff;
+    margin-left: 47px;
+}
+.withdraw_box .bank_list ul li p.wallets_link{
+    margin-left: 19px;
+    font-size: 14px;
+    width: 242px;
+    word-wrap: break-word;
+}
+.withdraw_box .bank_list ul li i.close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.withdraw_box .bank_list ul li i.close:hover{
+    opacity: .8;
+}
+.withdraw_box .bank_list ul li i.check{
+    cursor: initial;
+}
+.withdraw_box .bank_list ul li i.check:hover{
+    opacity: 1;
+}
+
+.withdraw_box .bank_list ul li.add_bank{
+    background-image: url(../img/user/addBank_bg.png);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.withdraw_box .bank_list ul li.add_bank i{
+    font-size: 24px;
+    margin-right: 11px;
+}
+.withdraw_box .bank_list ul li.add_bank h5{
+    font-size: 15px;
+    color: #333;
+}
+
+
+.withdraw_box .money{
+    margin-top: 6px;
+}
+.withdraw_box .money dl{
+    margin-bottom: 20px;
+}
+.withdraw_box .money dl dt{
+    width: 80px;
+    line-height: 40px;
+    float: left;
+    color: #333;
+    text-align: right;
+}
+.withdraw_box .money dl dd{
+    float: left;
+    line-height: 40px;
+    margin-left: 7px;
+    width: 550px;
+}
+.withdraw_box .money dl:first-child dd,
+.withdraw_box .money dl:nth-child(2) dd,
+.withdraw_box .money dl:nth-child(3) dd{
+    padding-left: 55px;
+}
+.withdraw_box .money dl dd input{
+    width: 340px;
+    height: 40px;
+    margin-right: 14px;
+}
+.withdraw_box .money dl dd span{
+    cursor: pointer;
+}
+.withdraw_box .money dl:nth-child(3) dd span:last-child{
+    float: right;
+    margin-right: 210px;
+}
+.withdraw_box .money dl dd button{
+    width: 100px;
+    float: right;
+    margin-right: 210px;
+}
+
+.withdraw_box .btn button{
+    width: 220px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.withdraw_box .be_careful{
+    margin-top: 35px;
+}
+.withdraw_box .be_careful ul li{
+    margin-bottom: 17px;
+    padding-left: 24px;
+    position: relative;
+    line-height: 20px;
+    color: #8F8F8F;
+}
+.withdraw_box .be_careful ul li b{
+    font-weight: initial;
+}
+.withdraw_box .be_careful ul li span{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+}
+
+
+.withdraw_box .Djzxcn{
+    text-align: center;
+    margin-top: 200px;
+}
+.withdraw_box .Djzxcn i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #ef8519;
+}

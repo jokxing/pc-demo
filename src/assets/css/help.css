@@ -1,0 +1,90 @@
+.help_inner{
+    width: 1200px;
+    margin: 120px auto 94px;
+}
+
+.help_inner .ant-layout-sider-children{
+    width: 222px;
+    height: 819px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    float: left;
+    padding-top: 26px;
+    padding-left: 25px;
+    padding-right: 34px;
+}
+
+.help_nav ul li{
+    width: 100%;
+    line-height: 26px;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 28px;
+}
+.help_nav ul li:first-child{
+    background-image: url(../img/help/icon_aboutUs.svg);
+}
+.help_nav ul li:nth-child(2){
+    background-image: url(../img/help/icon_clause.svg);
+}
+.help_nav ul li:nth-child(3){
+    background-image: url(../img/help/icon_product.svg);
+}
+.help_nav ul li:nth-child(4){
+    background-image: url(../img/help/icon_gameQuestions.svg);
+}
+.help_nav ul li:nth-child(5){
+    background-image: url(../img/help/icon_contactUs.svg);
+}
+.help_nav ul li span{
+    display: inline-block;
+    padding-left: 36px;
+}
+.help_nav ul li span a:hover{
+    color: #333;
+}
+
+.help_nav_child a{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    color: #929292;
+    width: 100%;
+    padding-left: 36px;
+    margin-top: 15px;
+}
+.help_nav_child p.active a{
+    background-color: #F3F9FE;
+    color: #5C7DEC;
+}
+
+
+
+.help_inner .ant-layout-content{
+    width: 960px;
+    min-height: 819px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    float: right;
+    padding: 32px 32px 40px 32px;
+}
+
+/* 关于我们 */
+.about_us h5{
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+
+/* 产品信息 */
+.product_infor h5{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+}
